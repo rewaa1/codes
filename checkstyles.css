@@ -96,3 +96,32 @@
     border-style: dashed;
     border-color: rgb(236, 240, 7);
 }
+#global {
+    display: flex;
+    
+    justify-content: space-around;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+}
+.local{
+    font-size: large;
+    display:inline-block;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+}
+#imgs{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: rgb(221, 9, 9);
+}
+.img1{
+    border-width: 1px;
+    
+    border-style: solid;
+    border-color: rgb(39, 13, 185);
+}
